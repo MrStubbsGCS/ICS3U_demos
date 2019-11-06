@@ -20,4 +20,14 @@ def task_4(num1, num2, num3):
     else:
         return "You lost! Loser"
 
-text = task_4(2, 3, 4)
+def task_5(li, num):
+    i = 0
+    while len(li)> i: #for i in range(len(li)):
+        if li[i] > num:
+            del li[i] #li.remove(li[i])
+            i = i -1
+        i = i+1
+    return li
+
+ex_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(task_5(ex_list, 4))
