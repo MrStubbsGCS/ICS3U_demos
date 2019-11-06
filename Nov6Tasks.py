@@ -1,4 +1,8 @@
 def task_1():
     print("Hello World!")
 
-task_1()
+def task_2(x):
+    print(x*5)
+
+
+task_2("hello")
