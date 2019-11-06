@@ -4,5 +4,8 @@ def task_1():
 def task_2(x):
     print(x*5)
 
+def task_3(data):
+    data = data.upper()
+    return data
 
-task_2("hello")
+print(task_3("hello"))
